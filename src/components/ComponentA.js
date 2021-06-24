@@ -1,15 +1,9 @@
-import ComponentB from './ComponentB'
+import ComponentB from './ComponentB';
 
-
-
-
-
-
-export default function ComponentA({setUserName}){
-  return (
-    <div>
-      <h1> from Component C</h1>
-
-    </div>
-  )
+export default function ComponentA({setUserName}) {
+    return (
+        <div>
+            <ComponentB />
+        </div>
+    )
 }
